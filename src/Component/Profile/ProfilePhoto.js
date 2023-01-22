@@ -1,10 +1,10 @@
-import image from "../../images/photo.jpg"
+import image from "../../images/mask.jpg"
 
 const Photo = () => {
     return (
       <>
-      <div className="flex justify-center mt-5">
-       <img src={image} alt="profilephoto" className="h-44 w-44 "></img>
+      <div>
+       <img src={image} alt="profilephoto" className="h-[100vh] w-[100%]"></img>
        </div>
       </>
     );
